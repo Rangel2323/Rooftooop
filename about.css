@@ -1,0 +1,203 @@
+*{ box-sizing: border-box;
+transition: 0.5s;}
+
+
+li { display: inline-block;
+text-transform: uppercase;
+font-size: 13px;
+width: 4%;
+margin-left: 20px;
+margin-right: 20px;
+font-family: "Roboto";
+
+}
+
+.u{
+      margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imagemLogo{
+  vertical-align: middle;
+margin-top: -40px;
+width: 70px;
+}
+ul{
+    margin-top: 40px;
+    text-align: center;
+    padding: 0;
+    
+}
+a{
+        text-decoration: none;
+        color: black;
+}
+
+a:hover{
+        color: #ad9966;
+}
+body{
+    background-image: url(header-bg.png);
+   background-position: center;
+background-repeat: no-repeat;
+background-position: center top 100px;
+background-size: 1500px;
+
+}
+.k{
+    text-align: center;
+    margin-top: 250px;
+    color: aliceblue;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gh{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 20px;
+}
+hr{
+        margin: 20px auto;
+        width: 800px;
+        border: 1px solid white;
+  }
+  .sushii{
+    
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 370px;
+    margin-left: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.book{
+    left: 55%;
+    letter-spacing: 5px;
+    font-weight: 1px;    
+    font-size: 55px;
+    font-family: "Playfair Display";
+    margin-top: -450px;
+    position: absolute;
+}
+.bookdois{
+    left: 3%;
+    color: #777777;
+    font-weight: 1px;
+    font-size: 16px;
+    font-family: "Playfair Display";
+    margin-top: 30px;
+    position: absolute;
+}
+span{
+    color: aliceblue;
+}
+.comida{
+    display: block;
+    margin: 0 auto;
+    margin-left: 470px;
+    margin-top: 100px;
+    width: 1000px;
+    
+}
+.chefe{
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-left: 990px;
+}
+.otto{
+     right: 67%;
+    letter-spacing: 5px;
+    font-weight: 1px;
+    
+    font-size: 70px;
+    font-family: "Playfair Display";
+    margin-top: -550px;
+    position: absolute;
+    margin-left: 300px;
+}
+.oto{
+    font-size: 16px;
+    margin-left: 300px;
+    margin-top: -350px;
+    font-size: 20px;
+    right: 670000%;
+    color: #777777;
+}
+.ass{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+.rodape {
+  background-color: #04091e;
+  padding: 150px 0;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  gap: 80px;}
+
+
+.TOP,
+.quick,
+.features,
+.resources,
+.newsletter {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;}
+
+.textoTOP,
+.textoquick,
+.textofeatures,
+.textoresources,
+.textonewsletter {
+  color: #888;
+  font-size: 14px;}
+
+button {
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  color: #ad9966;
+}
+
+.textorodape {
+  position: absolute;
+  color: #888;
+  font-size: 14px;
+  margin-top: 10%;
+  left: 23%;
+}
+
+.textorodape span,
+.textorodape a {
+  color: #ad9966;
+  text-decoration: none;
+}
+
+.newsletter p {
+  color: #888;
+}
+
+.newsletter input {
+  padding: 13px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #888;
+}
+
+.newsletter button {
+  margin-top: -42px;
+  margin-left: 200px;
+  padding: 13px;
+  background-color: #ad9966;
+  color: white;
+}
